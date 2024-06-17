@@ -14,6 +14,7 @@
 		C37346E32C205FDD000EA759 /* DTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37346E22C205FDD000EA759 /* DTimeTests.swift */; };
 		C37346ED2C205FDD000EA759 /* DTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37346EC2C205FDD000EA759 /* DTimeUITests.swift */; };
 		C37346EF2C205FDD000EA759 /* DTimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37346EE2C205FDD000EA759 /* DTimeUITestsLaunchTests.swift */; };
+		C377D6C72C20617200EA6347 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C377D6C62C20617200EA6347 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		C37346E82C205FDD000EA759 /* DTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C37346EC2C205FDD000EA759 /* DTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTimeUITests.swift; sourceTree = "<group>"; };
 		C37346EE2C205FDD000EA759 /* DTimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C377D6C62C20617200EA6347 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				C37346D12C205FDB000EA759 /* DTimeApp.swift */,
 				C37346D32C205FDB000EA759 /* ContentView.swift */,
+				C377D6C62C20617200EA6347 /* .gitignore */,
 				C37346D52C205FDC000EA759 /* Assets.xcassets */,
 				C37346D72C205FDC000EA759 /* Preview Content */,
 			);
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C37346D92C205FDC000EA759 /* Preview Assets.xcassets in Resources */,
+				C377D6C72C20617200EA6347 /* .gitignore in Resources */,
 				C37346D62C205FDC000EA759 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -28,19 +28,23 @@ struct TimeListCell: View {
                 Text(title)
                     .font(.largeTitle)
                     .bold()
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.2)
                 
                 Spacer()
                 
-                Text("\(dateToString(date: date))")
-                    .font(.caption)
-                    .bold()
-                
-                // TODO: 개발 필요
-                Text("D-00")
-                    .font(.title)
-                    .bold()
+                VStack {
+                    Text("\(dateToString(date: date))")
+                        .font(.caption)
+                        .bold()
+                    
+                    // TODO: 개발 필요
+                    Text("D-00")
+                        .font(.title)
+                        .bold()                    
+                }
             }
-            .padding(15)
+            .padding(.horizontal, 15)
             
             HStack {
                 Text(description ?? "설명 없음")
@@ -55,7 +59,6 @@ struct TimeListCell: View {
                     Text("변경")
                         .bold()
                         .padding(.horizontal, 10)
-                        .padding(.vertical, 5)
                 })
             }
             .padding(.horizontal, 15)

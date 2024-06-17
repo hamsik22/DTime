@@ -11,7 +11,8 @@ struct ContentView: View {
     
     @State var dummyDataArray: [DataModel] = [DataModel(title: "Example1", date: Date()),
                                               DataModel(title: "Example2", date: Date.init(timeInterval: 30, since: .now)),
-                                              DataModel(title: "Example3", date: Date.init(timeInterval: 500, since: .now))]
+                                              DataModel(title: "Example3", date: Date.init(timeInterval: 500, since: .now)),
+                                              DataModel(title: "Example4 is LongString", date: Date.init(timeInterval: 500, since: .now))]
     
     var body: some View {
         VStack {

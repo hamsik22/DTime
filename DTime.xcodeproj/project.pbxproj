@@ -100,10 +100,10 @@
 		C37346D02C205FDB000EA759 /* DTime */ = {
 			isa = PBXGroup;
 			children = (
+				C37346D12C205FDB000EA759 /* DTimeApp.swift */,
 				C377D6C62C20617200EA6347 /* .gitignore */,
 				C37346D32C205FDB000EA759 /* ContentView.swift */,
 				C390A9E52C20810900982E7A /* DataModel.swift */,
-				C37346D12C205FDB000EA759 /* DTimeApp.swift */,
 				C390A9E72C20832900982E7A /* TimeListCell.swift */,
 				C37346D52C205FDC000EA759 /* Assets.xcassets */,
 				C37346D72C205FDC000EA759 /* Preview Content */,

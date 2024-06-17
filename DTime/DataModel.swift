@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct DataModel: Identifiable {
+    var id = UUID()
+    var title: String
+    var description: String? = nil
+    var date: Date
+}

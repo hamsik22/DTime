@@ -16,6 +16,7 @@
 		C37346EF2C205FDD000EA759 /* DTimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37346EE2C205FDD000EA759 /* DTimeUITestsLaunchTests.swift */; };
 		C377D6C72C20617200EA6347 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C377D6C62C20617200EA6347 /* .gitignore */; };
 		C390A9E62C20810900982E7A /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390A9E52C20810900982E7A /* DataModel.swift */; };
+		C390A9E82C20832900982E7A /* TimeListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390A9E72C20832900982E7A /* TimeListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		C37346EE2C205FDD000EA759 /* DTimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C377D6C62C20617200EA6347 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		C390A9E52C20810900982E7A /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		C390A9E72C20832900982E7A /* TimeListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,12 +100,13 @@
 		C37346D02C205FDB000EA759 /* DTime */ = {
 			isa = PBXGroup;
 			children = (
-				C37346D12C205FDB000EA759 /* DTimeApp.swift */,
-				C37346D32C205FDB000EA759 /* ContentView.swift */,
 				C377D6C62C20617200EA6347 /* .gitignore */,
+				C37346D32C205FDB000EA759 /* ContentView.swift */,
+				C390A9E52C20810900982E7A /* DataModel.swift */,
+				C37346D12C205FDB000EA759 /* DTimeApp.swift */,
+				C390A9E72C20832900982E7A /* TimeListCell.swift */,
 				C37346D52C205FDC000EA759 /* Assets.xcassets */,
 				C37346D72C205FDC000EA759 /* Preview Content */,
-				C390A9E52C20810900982E7A /* DataModel.swift */,
 			);
 			path = DTime;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C390A9E82C20832900982E7A /* TimeListCell.swift in Sources */,
 				C37346D42C205FDB000EA759 /* ContentView.swift in Sources */,
 				C37346D22C205FDB000EA759 /* DTimeApp.swift in Sources */,
 				C390A9E62C20810900982E7A /* DataModel.swift in Sources */,
